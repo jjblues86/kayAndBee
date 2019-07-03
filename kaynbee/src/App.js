@@ -12,8 +12,8 @@ render() {
   return(
       <div className="title">
           <NavBar/>
-
           <Landing />
+          <br/>
           <Footer/>
       </div>
   )
