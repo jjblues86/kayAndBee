@@ -11,6 +11,7 @@ import Home from './Component/Dashboard/Home';
 import Services from './Component/Dashboard/Services';
 import About from './Component/Dashboard/AboutUs';
 import Contacts from './Component/Dashboard/ContactUs';
+import Details from './Component/Dashboard/Details';
 
 
 
@@ -26,6 +27,8 @@ render() {
               <Route path="/services" component={Services}/>
               <Route path="/about" component={About}/>
               <Route path="/contacts" component={Contacts}/>
+              <Route path="/details" component={Details}/>
+
           </Switch>
           <Landing />
           <br/>

@@ -18,7 +18,7 @@ class InfoProvider extends React.Component {
                reviews: this.state.reviews,
                headerTitle: this.state.headerTitle,
                headerText: this.state.headerText,
-               detailInfo: this.state.deatailInfo,
+               detailInfo: this.state.detailInfo,
                name: this.state.name,
                avatar: this.state.avatar,
                comment: this.state.comment
