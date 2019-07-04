@@ -22,7 +22,7 @@ render() {
       <div className="title">
           <NavBar/>
           <Switch>
-              <Route path="/home" component={Home}/>
+              <Route exact path="/" component={Home}/>
               <Route path="/services" component={Services}/>
               <Route path="/about" component={About}/>
               <Route path="/contacts" component={Contacts}/>

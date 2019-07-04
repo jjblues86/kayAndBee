@@ -5,3 +5,11 @@
   --mainWhite: #fff;
   --mainBlue: #007bff;
 }
+
+.navbar-toggle:focus {
+  outline: none;
+}
+
+.navbar-toggle {
+  border: none;
+}
