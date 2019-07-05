@@ -23,7 +23,12 @@ class Info extends Component {
                                 <div className="card-body">
                                     <h3 className="card-title text-uppercase">{headerTitle}</h3>
                                     <p className="card-text">{headerText}</p>
-                                    <Link to="/details" className="btn btn-outline-primary text-uppercase">Show</Link>
+                                    <Link
+                                        onClick={() => value.handleDetail(id)}
+                                        to="/details"
+                                        className="btn btn-outline-primary text-uppercase">
+                                        Show
+                                    </Link>
                                 </div>
                             </div>
                         </div>

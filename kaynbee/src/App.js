@@ -31,7 +31,6 @@ render() {
 
           </Switch>
           <Landing />
-          <br/>
           <Footer/>
       </div>
   )
