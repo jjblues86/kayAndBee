@@ -57,3 +57,16 @@ export const detailInfo = {
     description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
     img:''
 };
+
+export const service = [
+    {
+        id: 1,
+        serviceTitle: 'Services',
+        serviceText: 'weddings,naming ceremonies to birthday parties.',
+        title: 'Wedding & Big Parties',
+        description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
+        title1: 'Small Party Events',
+        description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
+        img:'https://image.shutterstock.com/image-photo/farm-chicken-barn-eating-automatic-600w-335206451.jpg'
+    }
+]

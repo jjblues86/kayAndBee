@@ -1,7 +1,6 @@
 :root {
-  --mainDark: #27C96D;
-  --mainGreen: #6EFECB;
-  --mainLightGreen: #BBFFEE;
+  --mainDark: #FBDAE0;
+  --mainPink: #FBDAE0;
   --mainWhite: #fff;
   --mainBlue: #007bff;
 }
@@ -12,4 +11,12 @@
 
 .navbar-toggle {
   border: none;
+}
+
+.navbar-custom {
+  background-color: #FBDAE0;
+}
+
+Link:hover {
+  color: var(--mainBlue);
 }
