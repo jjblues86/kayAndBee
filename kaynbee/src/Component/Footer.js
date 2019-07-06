@@ -4,6 +4,8 @@ import styled from 'styled-components';
 const Footer = () => {
     return(
         <FooterContainer>
+        <div className="main-footer">
+            <div className="footer-middle">
             {/* Social Icons */}
             <div className="container mt-5">
                 <div className="row justify-content-center">
@@ -27,6 +29,8 @@ const Footer = () => {
                         &copy;{new Date().getFullYear()} Kay & Bee Events - All Rights Reserved
                     </p>
                 </div>
+        </div>
+        </div>
         </FooterContainer>
     );
 }
@@ -37,7 +41,7 @@ const FooterContainer = styled.footer`
 .footer-middle {
 background: var(--mainDark);
 padding-top: 3rem;
-color: var(--mainDark);
+color: var(--mainWhite);
 }
 
 .footer-bottom {
@@ -48,7 +52,6 @@ text-align: center;
 
 i{
    font-size: 1.875rem;
-   color: var(--mainDark);
   }
   
   i:hover{

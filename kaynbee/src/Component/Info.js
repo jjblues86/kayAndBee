@@ -17,8 +17,8 @@ class Info extends Component {
                 <InfoConsumer>
                     {value => (
 
-                        <div className="col-10 col-lg-4 mx-auto mb-5">
-                            <div className="card" style={{width:'18rem'}}>
+                        <div className="col-5 col-lg-4 mx-auto mb-5">
+                            <div className="card" style={{width:'15rem'}}>
                                 <img src={img} alt={headerTitle} className="card-img-top"/>
                                 <div className="card-body">
                                     <h3 className="card-title text-uppercase">{headerTitle}</h3>
