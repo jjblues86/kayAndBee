@@ -17,6 +17,32 @@
   background-color: #FBDAE0;
 }
 
-Link:hover {
+
+.footer-custom {
+  background-color: #FBDAE0;
+}
+
+
+
+ul li a:hover {
   color: var(--mainBlue);
 }
+
+nav {
+  font-family: 'Indie Flower', cursive;
+}
+
+h3, h5, h2 {
+  font-family: 'Arvo', serif;
+}
+
+p {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+}
+
+
+
+/*Link:hover {*/
+/*  color: var(--mainBlue);*/
+/*}*/

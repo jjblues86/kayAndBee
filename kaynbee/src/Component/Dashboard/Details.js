@@ -13,6 +13,7 @@ class Details extends Component {
                        headerTitle,
                        headerText,
                        img,
+                       img1,
                        title,
                        title1,
                        description,
@@ -71,6 +72,10 @@ class Details extends Component {
                                            src={img}
                                             alt={title}
                                             className="img-thumbnail img-fluid"/>
+                                       <img
+                                           src={img1}
+                                           alt={title}
+                                           className="img-thumbnail img-fluid"/>
                                    </div>
                                    {/*Reviews*/}
                                    <div className="tab-pane" id="reviews" role="tabpanel">
@@ -97,7 +102,6 @@ const DetailsHeader = styled.header`
     
     h1{
     padding-top: 10%;
-    color: var(--mainDark);
    }
    
    h4{
@@ -108,7 +112,7 @@ const DetailsHeader = styled.header`
    padding-left: 10%;
    padding-right: 10%;
    margin-bottom: 10%;
-   color: var(--mainDark);
+ 
    }
    
    i{

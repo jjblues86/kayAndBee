@@ -2,12 +2,12 @@ export const serviceInfo = [
     {
         id: 1,
         headerTitle: 'Services',
-        headerText: 'weddings,naming ceremonies to birthday parties.',
+        headerText: 'weddings, naming ceremonies to birthday parties.',
         title: 'Wedding & Big Parties',
         description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
         title1: 'Small Party Events',
         description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
-        img:'https://image.shutterstock.com/image-photo/farm-chicken-barn-eating-automatic-600w-335206451.jpg'
+        img:'.././assets/knb8.JPG'
     },
     {
         id: 2,
@@ -17,7 +17,8 @@ export const serviceInfo = [
         description: 'Great wedding',
         title1: 'Naming Ceremony',
         description1: 'Lovely naming ceremony',
-        img: 'https://image.shutterstock.com/image-photo/farm-chicken-barn-eating-automatic-600w-335206451.jpg'
+        img: '.././assets/knb1.jpg',
+        img1: '.././assets/knb10.jpg'
     },
     {
         id: 3,
@@ -27,8 +28,7 @@ export const serviceInfo = [
         description: 'Designer',
         title1: 'Betsy',
         description1: 'Designer',
-        img: 'https://image.shutterstock.com/image-photo/farm-chicken-barn-eating-automatic-600w-335206451.jpg',
-        img1: 'https://image.shutterstock.com/image-photo/farm-chicken-barn-eating-automatic-600w-335206451.jpg'
+        img: '.././assets/knb11.jpg',
     }
 ];
 
@@ -55,18 +55,32 @@ export const detailInfo = {
     description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
     title1: 'Small Party Events',
     description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
-    img:''
+    img:'.././assets/knb2.jpg'
 };
 
 export const service = [
     {
         id: 1,
         serviceTitle: 'Services',
-        serviceText: 'weddings,naming ceremonies to birthday parties.',
+        serviceText: 'Weddings, naming ceremonies to birthday parties.',
         title: 'Wedding & Big Parties',
         description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
         title1: 'Small Party Events',
         description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
-        img:'https://image.shutterstock.com/image-photo/farm-chicken-barn-eating-automatic-600w-335206451.jpg'
+        img:'.././assets/knb6.jpg',
+        img1:'.././assets/knb3.jpg'
+    }
+];
+
+export const about = [
+    {
+        id: 3,
+        aboutTitle: 'About Us',
+        aboutText: 'Great ladies behind these lovely designs',
+        title: 'Kaddijah',
+        description: 'Designer',
+        title1: 'Betsy',
+        description1: 'Designer',
+        img: '.././assets/knb11.jpg'
     }
 ]
