@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from "styled-components";
 
 export default class Landing extends React.Component {
     render() {
@@ -9,3 +10,9 @@ export default class Landing extends React.Component {
         )
     }
 }
+
+const NavHoover = styled.nav`
+.navbar-nav:hover{
+  color: var(--mainBlue);
+}
+`;

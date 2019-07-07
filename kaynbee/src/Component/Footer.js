@@ -10,13 +10,13 @@ const Footer = () => {
             <div className="container mt-5">
                 <div className="row justify-content-center">
                     <div className="col-2">
-                        <i className="fab fa-facebook-f" />
+                        <i className="fab fa-facebook-f"/>
                     </div>
                     <div className="col-2">
-                        <i className="fab fa-twitter" />
+                        <a href="https://twitter.com/JJBLUES1"> <i className="fab fa-twitter" /></a>
                     </div>
                     <div className="col-2">
-                        <i className="fab fa-instagram" />
+                        <a href="https://instagram.com/kay_and_bee_events?igshid=awwxanpb9zem"> <i className="fab fa-instagram"/></a>
                     </div>
                     <div className="col-2">
                         <i className="fab fa-whatsapp" />
@@ -52,11 +52,11 @@ text-align: center;
 
 i{
    font-size: 1.875rem;
+   color: var(--mainWhite);
   }
   
   i:hover{
   color: var(--mainBlue);
   cursor: pointer;
   }
-  
 `;
