@@ -26,7 +26,7 @@ export default class ContactUs extends React.Component {
                     </div>
                     <div className="col-md-5">
                         <h4><strong>Contact Us</strong></h4>
-                        <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+                        <form action="https://formspree.io/kayandbeeevents@gmail.com" method="POST">
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" placeholder="Name"/>
                             </div>

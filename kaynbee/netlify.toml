@@ -4,6 +4,10 @@ publish = "kaynbee/build/"
 command = "npm run build"
 
 
+<<<<<<< HEAD
+# A basic redirect rule
+=======
+>>>>>>> 99214aea30b2a67469d628cbcaa832e60169c448
 [[redirects]]
   from = "/*"
   to = "/index.html"
