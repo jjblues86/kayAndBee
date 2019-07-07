@@ -31,6 +31,7 @@ class InfoProvider extends React.Component {
         return(
            <InfoContext.Provider value={{
                info: this.state.info,
+               serviceInfo: this.state.serviceInfo,
                reviews: this.state.reviews,
                headerTitle: this.state.headerTitle,
                headerText: this.state.headerText,
