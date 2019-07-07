@@ -3,6 +3,8 @@ base = "kaynbee/"
 publish = "kaynbee/build/"
 command = "npm run build"
 
+
+# A basic redirect rule
 [[redirects]]
   from = "/*"
   to = "/index.html"
