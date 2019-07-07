@@ -26,12 +26,6 @@
   max-width: 30%;
 }
 
-
-
-ul li a:hover {
-  color: var(--mainBlue);
-}
-
 nav {
   font-family: 'Indie Flower', cursive;
 }
