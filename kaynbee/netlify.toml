@@ -1,0 +1,4 @@
+[build]
+base = "kaynbee/"
+publish = "kaynbee/build/"
+command = "npm build"
