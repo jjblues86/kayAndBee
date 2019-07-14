@@ -7,8 +7,8 @@ export const serviceInfo = [
         description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
         title1: 'Small Party Events',
         description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
-        img:'.././assets/knb4.JPG',
-        img1:'.././assets/knb3.JPG'
+        img:'.././assets/knb7.JPG',
+        img1:'.././assets/knb8.JPG'
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ export const serviceInfo = [
         description: 'Great wedding',
         title1: 'Naming Ceremony',
         description1: 'Lovely naming ceremony',
-        img: '.././assets/knb3.jpg',
+        img: '.././assets/knb9.jpg',
         img1: '.././assets/knb6.jpg'
     },
     {
