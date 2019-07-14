@@ -26,7 +26,9 @@ export default class ContactUs extends React.Component {
                     </div>
                     <div className="col-md-5">
                         <h4><strong>Contact Us</strong></h4>
-                        <form name="contacts" action="https://formspree.io/jeromejoof@yahoo.com" method="POST">
+                        <form action="POST" data-netlify="true">
+                            {/*<input type="hidden" name="_next" value="contacts" />*/}
+
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" placeholder="Name"/>
                             </div>
@@ -41,7 +43,6 @@ export default class ContactUs extends React.Component {
                                 name="message"
                                 cols="30" rows="3" placeholder="Message">
                          </textarea>
-                            <input type="hidden" name="_next" value="//https://gifted-benz-dfad99.netlify.com/" />
 
                             <Button type="submit" className="btn text-uppercase mt-1">
                                     <i className="fa fa-paper-plane-o" aria-hidden="true"/>
