@@ -30,7 +30,7 @@ render() {
               <Route path="/details" component={Details}/>
 
           </Switch>
-          <Landing />
+          {/*<Landing />*/}
           <Footer/>
       </div>
   )

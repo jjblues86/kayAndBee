@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../logo.png';
 import { Link } from 'react-router-dom';
 
 
@@ -6,9 +7,13 @@ const Navbar = () => {
     return(
         <nav
             className="navbar navbar-expand-lg navbar-light navbar-custom">
-            <div className="navbar-brand" href="#">Kay & Bee Events</div>
-            <button className="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            <a className="navbar-brand" href="/">
+                <img src={logo} alt="logo" style={{ width: '40%' }} />
+            </a>
+            <button className="navbar-toggler" type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                 <span>
                     <i className="fas fa-bars" style={{color: '#fff'}}></i>
