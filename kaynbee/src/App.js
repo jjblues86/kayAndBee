@@ -22,6 +22,9 @@ render() {
   return(
       <div className="title">
           <NavBar/>
+          <br />
+          {/*<Landing />*/}
+          <br/>
           <Switch>
               <Route exact path="/" component={Home}/>
               <Route path="/services" component={Services}/>
@@ -30,7 +33,6 @@ render() {
               <Route path="/details" component={Details}/>
 
           </Switch>
-          {/*<Landing />*/}
           <Footer/>
       </div>
   )

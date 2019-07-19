@@ -16,16 +16,16 @@ class Info extends Component {
                 <InfoConsumer>
                     {value => (
 
-                        <div className="col-5 col-lg-3 mx-auto mb-5">
-                            <div className="card" style={{width:'15rem'}}>
+                        <div className="col-10 col-lg-3 mx-auto mb-5">
+                            <div className="card" style={{width:'13rem'}}>
                                 <img src={img} alt={headerTitle} className="card-img-top"/>
                                 <div className="card-body">
-                                    <h3 className="card-title text-uppercase">{headerTitle}</h3>
+                                    <h3 className="card-title">{headerTitle}</h3>
                                     <p className="card-text">{headerText}</p>
                                     <Link
                                         onClick={() => value.handleDetail(id)}
                                         to="/details"
-                                        className="btn btn-outline-primary text-uppercase">
+                                        className="btn btn-outline-primary">
                                         Show
                                     </Link>
                                 </div>
