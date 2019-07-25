@@ -14,6 +14,9 @@ class Details extends Component {
                         headerText,
                         img,
                         img1,
+                        img2,
+                        img3,
+                        img4,
                         title,
                         title1,
                         description,
@@ -24,23 +27,6 @@ class Details extends Component {
                             <DetailsHeader className="container-fluid align-items-center">
                                 <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
                                 <p>{headerText}</p>
-                                {/* Social Icons */}
-                                {/*<div className="container mt-5">*/}
-                                {/*    <div className="row justify-content-center">*/}
-                                {/*        <div className="col-2">*/}
-                                {/*            <i className="fab fa-facebook-f" />*/}
-                                {/*        </div>*/}
-                                {/*        <div className="col-2">*/}
-                                {/*            <i className="fab fa-twitter" />*/}
-                                {/*        </div>*/}
-                                {/*        <div className="col-2">*/}
-                                {/*            <i className="fab fa-instagram" />*/}
-                                {/*        </div>*/}
-                                {/*        <div className="col-2">*/}
-                                {/*            <i className="fab fa-whatsapp" />*/}
-                                {/*        </div>*/}
-                                {/*    </div>*/}
-                                {/*</div>*/}
                             </DetailsHeader>
                             {/*Nav Link*/}
                             <div className="container">
@@ -73,7 +59,7 @@ class Details extends Component {
                                             alt={title}
                                             className="img-thumbnail img-fluid"/>
                                         <img
-                                            src={img1}
+                                            src={img}
                                             alt={title}
                                             className="img-thumbnail img-fluid"/>
                                     </div>
@@ -94,10 +80,11 @@ class Details extends Component {
 export default Details;
 
 const DetailsHeader = styled.header`
-    background: linear-gradient(rgba(110,110,110), rgba(255,255,255));
+    // background: linear-gradient(rgba(110,110,110), rgba(255,255,255));
+    // background: url("https://image.shutterstock.com/image-vector/vector-floral-bouquet-design-garden-260nw-736426123.jpg");
     height: 100vh;
     text-transform: uppercase;
-    color: var(--mainWhite);
+    color: var(--mainDark);
     text-align: center;
     
     h1{

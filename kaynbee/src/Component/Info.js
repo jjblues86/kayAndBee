@@ -21,7 +21,7 @@ class Info extends Component {
                                 <img src={img} alt={headerTitle} className="card-img-top"/>
                                 <div className="card-body">
                                     <h3 className="card-title">{headerTitle}</h3>
-                                    <p className="card-text">{headerText}</p>
+                                    {/*<p className="card-text">{headerText}</p>*/}
                                     <Link
                                         onClick={() => value.handleDetail(id)}
                                         to="/details"

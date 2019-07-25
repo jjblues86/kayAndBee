@@ -13,23 +13,34 @@ class AboutCard extends Component {
             description,
             title1,
             description1,
-            img
+            img,
+            img1
         } = this.props.item;
         return (
             <InfoConsumer>
                 {value => (
-                    <div className="card container mt-2 mb-3 p-5">
+                    <div className="media mt-5">
+
+                    {/*<div className="card container mt-2 mb-3 p-5">*/}
                         <div className="card-body">
                             <h5 key={id} className="card-title">{aboutTitle}</h5>
                             <p className="card-text">{aboutText}</p>
-                            <h2 className="mb-3">{title}</h2>
+                            <h2 className="mb-0">{title}</h2>
                             <p>{description}</p>
-                            <h2 className="mb-3">{title1}</h2>
+                            <img
+                                src={img}
+                                alt={title}
+                                // className="img-thumbnail img-fluid"
+                                style={{width: '20%'}}
+                                className="mr-3"/>
+                            <h2 className="mb-0">{title1}</h2>
                             <p>{description1}</p>
                             <img
                                 src={img}
                                 alt={title}
-                                className="img-thumbnail img-fluid"/>
+                                // className="img-thumbnail img-fluid"
+                                style={{width: '20%'}}
+                                className="mr-3"/>
                         </div>
                     </div>
                 )}

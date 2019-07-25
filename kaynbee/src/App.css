@@ -26,8 +26,17 @@
   max-width: 30%;
 }
 
+.logo {
+  /*font-family: 'Rajdhani', sans-serif;*/
+  font-family: 'Ultra', serif;
+}
+
+.card-title {
+  text-align: center;
+}
+
 nav {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 h3, h5, h2 {
@@ -36,13 +45,13 @@ h3, h5, h2 {
 }
 
 p {
-  font-family: 'Amatic SC', 'cursive';
+  font-family: 'Rajdhani', sans-serif;
   font-size: 2rem;
 }
 
-.nav > li > a:hover{
-  background-color:#FCC;
-}
+/*.nav > li > a:hover{*/
+/*  background-color:#FCC;*/
+/*}*/
 
 
 /*Link:hover {*/

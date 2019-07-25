@@ -8,17 +8,17 @@ export const serviceInfo = [
         title1: 'Small Party Events',
         description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
         img:'.././assets/knb7.JPG',
-        img1:'.././assets/knb8.JPG'
+        // img1:'.././assets/knb8.JPG'
     },
     {
         id: 2,
         headerTitle: 'Portfolio',
         headerText: 'These are our past work for clients',
-        title: 'Wedding',
-        description: 'Great wedding',
-        title1: 'Naming Ceremony',
-        description1: 'Lovely naming ceremony',
-        img: '.././assets/knb9.jpg',
+        // title: 'Wedding',
+        // description: 'Great wedding',
+        // title1: 'Naming Ceremony',
+        // description1: 'Lovely naming ceremony',
+        img: '.././assets/knb13.jpg',
         img1: '.././assets/knb6.jpg'
     },
     {
@@ -29,8 +29,8 @@ export const serviceInfo = [
         description: 'Designer',
         title1: 'Betsy',
         description1: 'Designer',
-        img: '.././assets/knb11.jpg',
-        img1: '.././assets/knb11.jpg',
+        img: '.././assets/knb0.jpg',
+        // img1: '.././assets/knb11.jpg',
 
     }
 ];
@@ -59,7 +59,11 @@ export const detailInfo = {
     title1: 'Small Party Events',
     description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
     img:'.././assets/knb3.jpg',
-    img1:'.././assets/knb6.jpg'
+    img1:'.././assets/knb6.jpg',
+    // img2:'.././assets/knb6.jpg',
+    // img3:'.././assets/knb6.jpg',
+    // img4:'.././assets/knb6.jpg',
+
 
 };
 
@@ -73,12 +77,13 @@ export const service = [
         title1: 'Small Party Events',
         description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
         img:'.././assets/knb6.jpg',
-        img1:'.././assets/knb8.jpg'
+        // img1:'.././assets/knb8.jpg'
     }
 ];
 
 export const about = [
     {
+
         id: 1,
         aboutTitle: 'About Us',
         aboutText: 'Great ladies behind these lovely designs',

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo.png';
+// import logo from '../logo.png';
 import { Link } from 'react-router-dom';
 
 
@@ -8,7 +8,8 @@ const Navbar = () => {
         <nav
             className="navbar navbar-expand-lg navbar-light navbar-custom">
             <a className="navbar-brand ml-5" href="/">
-                <img src={logo} alt="logo" style={{ width: '40%' }} />
+                {/*<img src={logo} alt="logo" style={{ width: '10%' }} />*/}
+                <p className="logo" style={{width: '10%'}}>Kay & Bee Events </p>
             </a>
             <button className="navbar-toggler" type="button"
                     data-toggle="collapse"
@@ -20,8 +21,8 @@ const Navbar = () => {
                 </span>
             </button>
 
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav m-auto">
+            <div className="collapse navbar-collapse"  id="navbarSupportedContent">
+                <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
                         <Link className="nav-link text-white text-uppercase ml-3" href="#" to="/">Home&nbsp;
                             <i className="fas fa-home" />
