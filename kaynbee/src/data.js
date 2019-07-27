@@ -19,7 +19,14 @@ export const serviceInfo = [
         // title1: 'Naming Ceremony',
         // description1: 'Lovely naming ceremony',
         img: '.././assets/knb13.jpg',
-        img1: '.././assets/knb6.jpg'
+        img1: '.././assets/knb6.jpg',
+        img2: '.././assets/knb1.jpg',
+        img3: '.././assets/knb9.jpg',
+        img4:'.././assets/knb8.JPG',
+        img5:'.././assets/knb16.JPG'
+
+
+
     },
     {
         id: 3,
@@ -94,3 +101,21 @@ export const about = [
         img: '.././assets/knb11.jpg'
     }
 ];
+//
+export const portfolio = [
+    {
+        id: 1,
+        headerTitle: 'Portfolio',
+        headerText: 'These are our past work for clients',
+        // title: 'Wedding',
+        // description: 'Great wedding',
+        // title1: 'Naming Ceremony',
+        // description1: 'Lovely naming ceremony',
+        img: '.././assets/knb13.jpg',
+        img1: '.././assets/knb6.jpg',
+        img2: '.././assets/knb1.jpg',
+        img3: '.././assets/knb9.jpg',
+        img4:'.././assets/knb8.JPG',
+        img5:'.././assets/knb16.JPG'
+    }
+]

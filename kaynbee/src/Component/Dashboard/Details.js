@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import { InfoConsumer } from '../context';
 import styled from 'styled-components';
-import Reviews from '../Reviews';
+// import Reviews from '../Reviews';
+
+
 
 class Details extends Component {
     render() {
@@ -17,6 +19,7 @@ class Details extends Component {
                         img2,
                         img3,
                         img4,
+                        img5,
                         title,
                         title1,
                         description,
@@ -26,26 +29,26 @@ class Details extends Component {
                         <React.Fragment>
                             <DetailsHeader className="container-fluid align-items-center">
                                 <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
-                                <p>{headerText}</p>
+                                {/*<p>{headerText}</p>*/}
                             </DetailsHeader>
                             {/*Nav Link*/}
-                            <div className="container">
-                                <ul className="nav nav-tabs">
+                            {/*<div className="container">*/}
+                                {/*<ul className="nav nav-tabs">*/}
                                     {/*Services Link*/}
-                                    <li className="nav-item">
-                                        <a href="#services"
-                                           className="nav-link active"
-                                           role="tab"
-                                           data-toggle="tab">Services</a>
-                                    </li>
+                                    {/*<li className="nav-item">*/}
+                                    {/*    <a href="#services"*/}
+                                    {/*       className="nav-link active"*/}
+                                    {/*       role="tab"*/}
+                                    {/*       data-toggle="tab">Services</a>*/}
+                                    {/*</li>*/}
                                     {/*Reviews Link*/}
-                                    <li className="nav-item">
-                                        <a href="#reviews"
-                                           className="nav-link"
-                                           role="tab"
-                                           data-toggle="tab">Reviews</a>
-                                    </li>
-                                </ul>
+                                    {/*<li className="nav-item">*/}
+                                    {/*    <a href="#reviews"*/}
+                                    {/*       className="nav-link"*/}
+                                    {/*       role="tab"*/}
+                                    {/*       data-toggle="tab">Reviews</a>*/}
+                                    {/*</li>*/}
+                                {/*</ul>*/}
                                 {/*Tab Pane*/}
                                 <div className="tab-content mb-5">
                                     {/*Reviews Tab*/}
@@ -59,16 +62,32 @@ class Details extends Component {
                                             alt={title}
                                             className="img-thumbnail img-fluid"/>
                                         <img
-                                            src={img}
+                                            src={img1}
+                                            alt={title}
+                                            className="img-thumbnail img-fluid"/>
+                                        <img
+                                            src={img2}
+                                            alt={title}
+                                            className="img-thumbnail img-fluid"/>
+                                        <img
+                                            src={img3}
+                                            alt={title}
+                                            className="img-thumbnail img-fluid"/>
+                                        <img
+                                            src={img4}
+                                            alt={title}
+                                            className="img-thumbnail img-fluid"/>
+                                        <img
+                                            src={img5}
                                             alt={title}
                                             className="img-thumbnail img-fluid"/>
                                     </div>
                                     {/*Reviews*/}
-                                    <div className="tab-pane" id="reviews" role="tabpanel">
-                                        < Reviews />
-                                    </div>
+                                    {/*<div className="tab-pane" id="reviews" role="tabpanel">*/}
+                                    {/*    < Reviews />*/}
+                                    {/*</div>*/}
                                 </div>
-                            </div>
+                            {/*</div>*/}
                         </React.Fragment>
                     )
                 }}
@@ -82,13 +101,13 @@ export default Details;
 const DetailsHeader = styled.header`
     // background: linear-gradient(rgba(110,110,110), rgba(255,255,255));
     // background: url("https://image.shutterstock.com/image-vector/vector-floral-bouquet-design-garden-260nw-736426123.jpg");
-    height: 100vh;
+    // height: 100vh;
     text-transform: uppercase;
     color: var(--mainDark);
     text-align: center;
     
     h1{
-    padding-top: 10%;
+    // padding-top: 10%;
    }
    
    h4{
@@ -99,7 +118,7 @@ const DetailsHeader = styled.header`
    padding-left: 10%;
    padding-right: 10%;
    margin-bottom: 10%;
- 
+
    }
    
    i{
@@ -112,9 +131,9 @@ const DetailsHeader = styled.header`
   cursor: pointer;
   }
   
-  na-item{
-  height: 18.75rem;
-  }
+  // na-item{
+  // height: 18.75rem;
+  // }
   
   @media(max-width: 760px){
   h1,

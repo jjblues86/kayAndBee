@@ -25,7 +25,7 @@ class Info extends Component {
                                     <Link
                                         onClick={() => value.handleDetail(id)}
                                         to="/details"
-                                        className="btn btn-outline-primary">
+                                        className="btn btn-outline-secondary">
                                         Show
                                     </Link>
                                 </div>
