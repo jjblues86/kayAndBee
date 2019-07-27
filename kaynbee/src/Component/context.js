@@ -1,5 +1,5 @@
 import React from 'react';
-import {serviceInfo, reviews, detailInfo, service, about} from '../data';
+import {serviceInfo, reviews, detailInfo, service, about, portfolio} from '../data';
 
 const InfoContext = React.createContext();
 
@@ -10,7 +10,8 @@ class InfoProvider extends React.Component {
         reviews: reviews,
         detailInfo: detailInfo,
         service: service,
-        about: about
+        about: about,
+        portfolio: portfolio
     };
 
     getItem = id => {
@@ -32,15 +33,16 @@ class InfoProvider extends React.Component {
            <InfoContext.Provider value={{
                info: this.state.info,
                serviceInfo: this.state.serviceInfo,
-               reviews: this.state.reviews,
+               // reviews: this.state.reviews,
                headerTitle: this.state.headerTitle,
                headerText: this.state.headerText,
                detailInfo: this.state.detailInfo,
                service: this.state.service,
+               portfolio: this.state.portfolio,
                about: this.state.about,
                name: this.state.name,
-               avatar: this.state.avatar,
-               comment: this.state.comment,
+               // avatar: this.state.avatar,
+               // comment: this.state.comment,
                handleDetail: this.handleDetail
            }}>
                {this.props.children}

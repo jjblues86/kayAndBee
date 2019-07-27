@@ -1,5 +1,4 @@
 import React from 'react';
-import Landing from './Component/Landing/Landing';
 import NavBar from './Component/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Component/Footer';
@@ -14,8 +13,8 @@ import Contacts from './Component/Dashboard/ContactUs';
 import Details from './Component/Dashboard/Details';
 
 
-
 import './App.css';
+import Portfolio from "./Component/Portfolio";
 
 export default class extends React.Component {
 render() {
@@ -23,7 +22,6 @@ render() {
       <div className="title">
           <NavBar/>
           <br />
-          {/*<Landing />*/}
           <br/>
           <Switch>
               <Route exact path="/" component={Home}/>
@@ -31,6 +29,7 @@ render() {
               <Route path="/about" component={About}/>
               <Route path="/contacts" component={Contacts}/>
               <Route path="/details" component={Details}/>
+              <Route path="/portfolio" component={Portfolio}/>
 
           </Switch>
           <Footer/>
