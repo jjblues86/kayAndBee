@@ -26,15 +26,16 @@ class AboutCard extends Component {
                             <h5 key={id} className="card-title">{aboutTitle}</h5>
                             <p className="card-text">{aboutText}</p>
                             <h2 className="mb-0">{title}</h2>
-                            <p>{description}</p>
+                            {/*<p>{description}</p>*/}
                             <img
                                 src={img}
                                 alt={title}
                                 // className="img-thumbnail img-fluid"
                                 style={{width: '20%'}}
                                 className="mr-3"/>
+                                <br/>
                             <h2 className="mb-0">{title1}</h2>
-                            <p>{description1}</p>
+                            {/*<p>{description1}</p>*/}
                             <img
                                 src={img}
                                 alt={title}

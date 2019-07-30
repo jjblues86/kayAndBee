@@ -19,11 +19,12 @@ export const serviceInfo = [
         // title1: 'Naming Ceremony',
         // description1: 'Lovely naming ceremony',
         img: '.././assets/knb13.jpg',
-        img1: '.././assets/knb6.jpg',
-        img2: '.././assets/knb1.jpg',
+        img1: '.././assets/knb20.jpg',
+        img2: '.././assets/knb17.jpg',
         img3: '.././assets/knb9.jpg',
         img4:'.././assets/knb8.JPG',
-        img5:'.././assets/knb16.JPG'
+        img5:'.././assets/knb16.JPG',
+
 
 
 
@@ -112,10 +113,11 @@ export const portfolio = [
         // title1: 'Naming Ceremony',
         // description1: 'Lovely naming ceremony',
         img: '.././assets/knb13.jpg',
-        img1: '.././assets/knb6.jpg',
-        img2: '.././assets/knb1.jpg',
-        img3: '.././assets/knb9.jpg',
+        img1: '.././assets/knb19.jpg',
+        img2: '.././assets/knb18.jpg',
+        img3: '.././assets/knb21.jpg',
         img4:'.././assets/knb8.JPG',
-        img5:'.././assets/knb16.JPG'
+        img5:'.././assets/knb20.JPG',
+
     }
 ]

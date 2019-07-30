@@ -61,26 +61,6 @@ class Details extends Component {
                                             src={img}
                                             alt={title}
                                             className="img-thumbnail img-fluid"/>
-                                        <img
-                                            src={img1}
-                                            alt={title}
-                                            className="img-thumbnail img-fluid"/>
-                                        <img
-                                            src={img2}
-                                            alt={title}
-                                            className="img-thumbnail img-fluid"/>
-                                        <img
-                                            src={img3}
-                                            alt={title}
-                                            className="img-thumbnail img-fluid"/>
-                                        <img
-                                            src={img4}
-                                            alt={title}
-                                            className="img-thumbnail img-fluid"/>
-                                        <img
-                                            src={img5}
-                                            alt={title}
-                                            className="img-thumbnail img-fluid"/>
                                     </div>
                                     {/*Reviews*/}
                                     {/*<div className="tab-pane" id="reviews" role="tabpanel">*/}
