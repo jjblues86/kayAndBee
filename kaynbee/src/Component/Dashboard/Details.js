@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { InfoConsumer } from '../context';
 import styled from 'styled-components';
-// import Reviews from '../Reviews';
 
 
 
@@ -15,11 +14,6 @@ class Details extends Component {
                         headerTitle,
                         headerText,
                         img,
-                        img1,
-                        img2,
-                        img3,
-                        img4,
-                        img5,
                         title,
                         title1,
                         description,
@@ -31,24 +25,7 @@ class Details extends Component {
                                 <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
                                 {/*<p>{headerText}</p>*/}
                             </DetailsHeader>
-                            {/*Nav Link*/}
-                            {/*<div className="container">*/}
-                                {/*<ul className="nav nav-tabs">*/}
-                                    {/*Services Link*/}
-                                    {/*<li className="nav-item">*/}
-                                    {/*    <a href="#services"*/}
-                                    {/*       className="nav-link active"*/}
-                                    {/*       role="tab"*/}
-                                    {/*       data-toggle="tab">Services</a>*/}
-                                    {/*</li>*/}
-                                    {/*Reviews Link*/}
-                                    {/*<li className="nav-item">*/}
-                                    {/*    <a href="#reviews"*/}
-                                    {/*       className="nav-link"*/}
-                                    {/*       role="tab"*/}
-                                    {/*       data-toggle="tab">Reviews</a>*/}
-                                    {/*</li>*/}
-                                {/*</ul>*/}
+                           
                                 {/*Tab Pane*/}
                                 <div className="tab-content mb-5">
                                     {/*Reviews Tab*/}
@@ -62,12 +39,7 @@ class Details extends Component {
                                             alt={title}
                                             className="img-thumbnail img-fluid"/>
                                     </div>
-                                    {/*Reviews*/}
-                                    {/*<div className="tab-pane" id="reviews" role="tabpanel">*/}
-                                    {/*    < Reviews />*/}
-                                    {/*</div>*/}
                                 </div>
-                            {/*</div>*/}
                         </React.Fragment>
                     )
                 }}
@@ -79,27 +51,24 @@ class Details extends Component {
 export default Details;
 
 const DetailsHeader = styled.header`
-    // background: linear-gradient(rgba(110,110,110), rgba(255,255,255));
+    background: linear-gradient(rgba(110,110,110), rgba(255,255,255));
     // background: url("https://image.shutterstock.com/image-vector/vector-floral-bouquet-design-garden-260nw-736426123.jpg");
-    // height: 100vh;
+    //  height: 100vh;
     text-transform: uppercase;
-    color: var(--mainDark);
+    // color: var(--mainWhite);
     text-align: center;
-    
-    h1{
-    // padding-top: 10%;
-   }
+//  background-color: var(--mainDark);
    
-   h4{
-   color: var(--mainDark);
-   }
+//    h4{
+//    color: var(--mainDark);
+//    }
    
    p{
    padding-left: 10%;
    padding-right: 10%;
    margin-bottom: 10%;
-
-   }
+   background-color: var(--mainDark);
+    }
    
    i{
    font-size: 1.875rem;
@@ -110,10 +79,6 @@ const DetailsHeader = styled.header`
   color: var(--mainBlue);
   cursor: pointer;
   }
-  
-  // na-item{
-  // height: 18.75rem;
-  // }
   
   @media(max-width: 760px){
   h1,

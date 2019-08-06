@@ -16,7 +16,7 @@ class Info extends Component {
                 <InfoConsumer>
                     {value => (
 
-                        <div className="col-10 col-lg-3 mx-auto mb-5">
+                        <div className="col-10 col-lg-3 mx-auto mb-5 text-center">
                             <div className="card" style={{width:'13rem'}}>
                                 <img src={img} alt={headerTitle} className="card-img-top"/>
                                 <div className="card-body">
@@ -25,7 +25,7 @@ class Info extends Component {
                                     <Link
                                         onClick={() => value.handleDetail(id)}
                                         to="/details"
-                                        className="btn btn-outline-secondary">
+                                        className="btn btn-outline-secondary ">
                                         Show
                                     </Link>
                                 </div>
