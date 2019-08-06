@@ -27,7 +27,7 @@
 }
 
 .logo {
-  /*font-family: 'Rajdhani', sans-serif;*/
+  
   font-family: 'Ultra', serif;
 }
 
@@ -39,9 +39,17 @@ nav {
   font-family: 'Rajdhani', sans-serif;
 }
 
-h3, h5, h2 {
-  font-family: 'Arvo', serif;
+.navbar-nav li a:hover {
+  color: rgb(230, 116, 137) !important;
+}
 
+h3, h5, h2, h4{
+  font-family: 'Arvo', serif;
+  font-size: 2rem;
+}
+
+h4 {
+  text-align: center;
 }
 
 p {
@@ -49,11 +57,7 @@ p {
   font-size: 2rem;
 }
 
-/*.nav > li > a:hover{*/
-/*  background-color:#FCC;*/
-/*}*/
-
-
-/*Link:hover {*/
-/*  color: var(--mainBlue);*/
-/*}*/
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}

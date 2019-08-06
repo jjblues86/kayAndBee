@@ -7,8 +7,7 @@ export const serviceInfo = [
         description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
         title1: 'Small Party Events',
         description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
-        img:'.././assets/knb7.JPG',
-        // img1:'.././assets/knb8.JPG'
+        img:'.././assets/knb28.JPG',
     },
     {
         id: 2,
@@ -18,16 +17,7 @@ export const serviceInfo = [
         // description: 'Great wedding',
         // title1: 'Naming Ceremony',
         // description1: 'Lovely naming ceremony',
-        img: '.././assets/knb13.jpg',
-        img1: '.././assets/knb20.jpg',
-        img2: '.././assets/knb17.jpg',
-        img3: '.././assets/knb9.jpg',
-        img4:'.././assets/knb8.JPG',
-        img5:'.././assets/knb16.JPG',
-
-
-
-
+        img: '.././assets/knb34.jpg',
     },
     {
         id: 3,
@@ -37,8 +27,7 @@ export const serviceInfo = [
         description: 'Designer',
         title1: 'Betsy',
         description1: 'Designer',
-        img: '.././assets/knb0.jpg',
-        // img1: '.././assets/knb11.jpg',
+        img: '.././assets/knb32.jpg',
 
     }
 ];
@@ -66,26 +55,21 @@ export const detailInfo = {
     description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
     title1: 'Small Party Events',
     description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
-    img:'.././assets/knb3.jpg',
+    img:'.././assets/knb6.jpg',
     img1:'.././assets/knb6.jpg',
-    // img2:'.././assets/knb6.jpg',
-    // img3:'.././assets/knb6.jpg',
-    // img4:'.././assets/knb6.jpg',
-
 
 };
 
 export const service = [
     {
         id: 1,
-        serviceTitle: 'Services',
+        serviceTitle: 'Services We Provide',
         serviceText: 'Weddings, naming ceremonies to birthday parties.',
         title: 'Wedding & Big Parties',
         description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
         title1: 'Small Party Events',
         description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
         img:'.././assets/knb6.jpg',
-        // img1:'.././assets/knb8.jpg'
     }
 ];
 
@@ -108,16 +92,22 @@ export const portfolio = [
         id: 1,
         headerTitle: 'Portfolio',
         headerText: 'These are our past work for clients',
-        // title: 'Wedding',
-        // description: 'Great wedding',
-        // title1: 'Naming Ceremony',
-        // description1: 'Lovely naming ceremony',
-        img: '.././assets/knb13.jpg',
-        img1: '.././assets/knb19.jpg',
-        img2: '.././assets/knb18.jpg',
-        img3: '.././assets/knb21.jpg',
-        img4:'.././assets/knb8.JPG',
-        img5:'.././assets/knb20.JPG',
+        img1: '.././assets/knb33.jpg',
+        img2: '.././assets/knb35.jpg',
+        img3: '.././assets/knb34.jpg',
+        img4:'.././assets/knb32.JPG',
+        img5:'.././assets/knb31.JPG',
+        img6:'.././assets/knb22.JPG',
+        img7:'.././assets/knb24.JPG',
+        img8:'.././assets/knb25.JPG',
+        img9:'.././assets/knb26.JPG',
+        img10:'.././assets/knb28.JPG',
+        img11:'.././assets/knb8.JPG',
+        img12:'.././assets/knb.JPG',
+        img13:'.././assets/knb29.JPG',
+        img14:'.././assets/knb30.JPG',
+        img15:'.././assets/knb6.JPG',
+
 
     }
 ]
