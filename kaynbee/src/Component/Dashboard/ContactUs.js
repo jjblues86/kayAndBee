@@ -6,29 +6,10 @@ export default class ContactUs extends React.Component {
     render() {
         return(
             <section className="my-5 py-5">
-                <div className="container">
-                    <div className="well well-sm">
-                        <h3><strong>Our Location</strong></h3>
-                    </div>
-                </div>
                 <div className="row">
-                    <div className="col-md-7">
-                        <iframe
-                            src="https://www.google.com/maps/d/embed?mid=1zyE8YeUrY9W5cUgDwFc00j-upZ1mv0tt"
-                            style={{
-                                border: '0',
-                                width: '100%',
-                                height: '315px',
-                                frameborder:'0'
-                            }}
-                            allowFullScreen
-                        />
-                    </div>
-                    <div className="col-md-5">
+                    <div className="col-md-5 mx-auto">
                         <h4><strong>Contact Us</strong></h4>
                         <form action="https://formspree.io/jeromejoof@yahoo.com" method="POST" >
-                            {/*<input type="hidden" name="form-name" value="contacts" />*/}
-
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" placeholder="Name"/>
                             </div>

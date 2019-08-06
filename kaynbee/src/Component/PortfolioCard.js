@@ -106,6 +106,9 @@ class PortfolioCard extends Component {
       <img class="d-block   " src={img7} alt="Seventh slide"  width="800" height="600"/>
     </div>
     <div className="carousel-item">
+      <img class="d-block   " src={img8} alt="Eight slide"  width="800" height="600"/>
+    </div>
+    <div className="carousel-item">
       <img class="d-block   " src={img9} alt="Eight slide"  width="800" height="600"/>
     </div>
     <div className="carousel-item">
@@ -128,11 +131,11 @@ class PortfolioCard extends Component {
     </div>
     
   </div>
-  <a class="carousel-control-prev" href="#cariuselIndicat" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#cariuselIndicat" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="sr-only">Next</span>
   </a>

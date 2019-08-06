@@ -63,7 +63,7 @@ export const detailInfo = {
 export const service = [
     {
         id: 1,
-        serviceTitle: 'Services',
+        serviceTitle: 'Services We Provide',
         serviceText: 'Weddings, naming ceremonies to birthday parties.',
         title: 'Wedding & Big Parties',
         description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',

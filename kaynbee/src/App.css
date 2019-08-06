@@ -43,9 +43,13 @@ nav {
   color: rgb(230, 116, 137) !important;
 }
 
-h3, h5, h2 {
+h3, h5, h2, h4{
   font-family: 'Arvo', serif;
   font-size: 2rem;
+}
+
+h4 {
+  text-align: center;
 }
 
 p {
