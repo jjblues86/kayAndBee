@@ -10,9 +10,7 @@ class Details extends Component {
             <InfoConsumer>
                 {data => {
                     const {
-                        id,
                         headerTitle,
-                        headerText,
                         img,
                         title,
                         title1,
@@ -23,10 +21,8 @@ class Details extends Component {
                         <React.Fragment>
                             <DetailsHeader className="container-fluid align-items-center">
                                 <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
-                                {/*<p>{headerText}</p>*/}
                             </DetailsHeader>
                            
-                                {/*Tab Pane*/}
                                 <div className="tab-content mb-5">
                                     {/*Reviews Tab*/}
                                     <div id="services" className="tab-pane in active text-center mt-5" role="tabpanel">

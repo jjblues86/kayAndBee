@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from '../logo.png';
 import { Link } from 'react-router-dom';
 
 
@@ -8,7 +7,6 @@ const Navbar = () => {
         <nav
             className="navbar navbar-expand-lg navbar-light navbar-custom">
             <a className="navbar-brand ml-5" href="/">
-                {/*<img src={logo} alt="logo" style={{ width: '10%' }} />*/}
                 <p className="logo" style={{width: '10%'}}>Kay & Bee Events </p>
             </a>
             <button className="navbar-toggler" type="button"

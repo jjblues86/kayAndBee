@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from "react-bootstrap/Button";
+import button from "react-bootstrap/Button";
 
 export default class ContactUs extends React.Component {
     render() {
@@ -25,11 +25,11 @@ export default class ContactUs extends React.Component {
                                 cols="30" rows="3" placeholder="Message">
                          </textarea>
 
-                            <Button type="submit" className="btn text-uppercase mt-1">
+                            <button type="submit" className="btn-outline-secondary text-uppercase mt-1">
                                     <i className="fa fa-paper-plane-o" aria-hidden="true"/>
                                     <i className="fab fa-telegram-plane" />
                                     &nbsp;Send
-                                </Button>
+                                </button>
                         </form>
                     </div>
                 </div>
