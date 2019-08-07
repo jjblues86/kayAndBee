@@ -6,44 +6,19 @@ class AboutCard extends Component {
     render() {
 
         const {
-            id,
-            aboutTitle,
-            aboutText,
-            title,
-            description,
-            title1,
-            description1,
             img,
-            img1
         } = this.props.item;
         return (
             <InfoConsumer>
                 {value => (
-                    <div className="media mt-5">
-
-                    {/*<div className="card container mt-2 mb-3 p-5">*/}
-                        <div className="card-body">
-                            <h5 key={id} className="card-title">{aboutTitle}</h5>
-                            <p className="card-text">{aboutText}</p>
-                            <h2 className="mb-0">{title}</h2>
-                            {/*<p>{description}</p>*/}
-                            <img
-                                src={img}
-                                alt={title}
-                                // className="img-thumbnail img-fluid"
-                                style={{width: '20%'}}
-                                className="mr-3"/>
-                                <br/>
-                            <h2 className="mb-0">{title1}</h2>
-                            {/*<p>{description1}</p>*/}
-                            <img
-                                src={img}
-                                alt={title}
-                                // className="img-thumbnail img-fluid"
-                                style={{width: '20%'}}
-                                className="mr-3"/>
-                        </div>
+                    <div>
+                    <div class="card mb-3">
+                    <img src={img} class="img-responsive mx-auto" alt="Kaddijah" width="300" height="300"/>
+                    <div class="card-body">
+                      <p class="card-text text-justify">We are located in the greater Seattle area. We pride ourselves in providing elegant and affordable event decorations. We are aware of how stressful planning your big day can be; our job is to provide you with ease when it comes to designing your venue. We make sure that everything looks beautiful and unique to your style. Let us bring your event to life</p>
                     </div>
+                  </div>
+                  </div>      
                 )}
             </InfoConsumer>
         );

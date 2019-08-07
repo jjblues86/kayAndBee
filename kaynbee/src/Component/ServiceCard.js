@@ -6,12 +6,11 @@ class ServiceCard extends Component {
         const {
             id,
             serviceTitle,
-            serviceText,
             title,
             title1,
             description,
             description1,
-            img,
+            description2,
             } = this.props.item;
 
         return (
@@ -21,11 +20,11 @@ class ServiceCard extends Component {
                         <div className="card-body">
                             <h2 key={id} className="card-title">{serviceTitle}</h2>
                             <br/>
-                            {/*<p className="card-text">{serviceText}</p>*/}
                             <h2 className="mb-3">{title}</h2>
                             <p>{description}</p>
                             <h2 className="mb-3">{title1}</h2>
                             <p>{description1}</p>
+                            <p className="text-center small">{description2}</p>
                         </div>
                     </div>
                 )}

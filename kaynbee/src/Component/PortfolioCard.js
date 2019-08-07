@@ -27,39 +27,11 @@ class PortfolioCard extends Component {
             img13,
             img14,
             img15,
+            img16,
         } = this.props.item;
         return (
             <InfoConsumer>
                 {value => (
-                    // <div className="media mt-5">
-
-                    //     <div className="card-body">
-                            // <h5 key={id} className="card-title">{headerTitle}</h5>
-                          
-                    //         <h2 className="mb-0">{title1}</h2>
-                    //         <p>{description1}</p>
-                    //         <img
-                    //             src={img1}
-                    //             alt={title}
-                    //             className="img-thumbnail img-fluid"/>
-                    //         <img
-                    //             src={img2}
-                    //             alt={title}
-                    //             className="img-thumbnail img-fluid"/>
-                    //         <img
-                    //             src={img3}
-                    //             alt={title}
-                    //             className="img-thumbnail img-fluid"/>
-                    //         <img
-                    //             src={img4}
-                    //             alt={title}
-                    //             className="img-thumbnail img-fluid"/>
-                    //         <img
-                    //             src={img5}
-                    //             alt={title}
-                    //             className="img-thumbnail img-fluid"/>
-                    //     </div>
-                    // </div>
                     <div id="carouselIndicators" className="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselIndicators" data-slide-to="0" className="active"></li>
@@ -77,8 +49,7 @@ class PortfolioCard extends Component {
     <li data-target="#carouselIndicators" data-slide-to="12"></li>
     <li data-target="#carouselIndicators" data-slide-to="13"></li>
     <li data-target="#carouselIndicators" data-slide-to="14"></li>
-
-
+    <li data-target="#carouselIndicators" data-slide-to="15"></li>
   </ol>
   <div class="carousel-inner w-100 mx-auto">
   <h5 key={id} className="card-title">{headerTitle}</h5>
@@ -129,7 +100,9 @@ class PortfolioCard extends Component {
     <div className="carousel-item">
       <img class="d-block   " src={img15} alt="Fifteenth slide"  width="800" height="600"/>
     </div>
-    
+    <div className="carousel-item">
+      <img class="d-block   " src={img16} alt="Fifteenth slide"  width="800" height="600"/>
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>

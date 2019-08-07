@@ -32,7 +32,6 @@ render() {
               <Route path="/portfolio" component={Portfolio}/>
           </Switch>
           <br/>
-
           <Footer/>
       </div>
   )
