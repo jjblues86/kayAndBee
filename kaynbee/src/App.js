@@ -7,7 +7,7 @@ import Footer from './Component/Footer';
 import { Switch, Route } from 'react-router-dom';
 // Import Dashboard
 import Home from './Component/Dashboard/Home';
-import Services from './Component/Dashboard/Services';
+// import Services from './Component/Dashboard/Services';
 import About from './Component/Dashboard/AboutUs';
 import Contacts from './Component/Dashboard/ContactUs';
 import Details from './Component/Dashboard/Details';
@@ -25,7 +25,7 @@ render() {
           <br/>
           <Switch>
               <Route exact path="/" component={Home}/>
-              <Route path="/services" component={Services}/>
+              {/* <Route path="/services" component={Services}/> */}
               <Route path="/about" component={About}/>
               <Route path="/contacts" component={Contacts}/>
               <Route path="/details" component={Details}/>

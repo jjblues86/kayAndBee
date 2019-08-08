@@ -4,9 +4,9 @@ export const serviceInfo = [
         headerTitle: 'Services',
         headerText: 'weddings, naming ceremonies to birthday parties.',
         title: 'Wedding & Big Parties',
-        description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
+        description: 'Silver Package | Gold Package | Premium Package',
         title1: 'Small Party Events',
-        description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
+        description1: 'Silver Package | Gold Package | Premium Package',
         img:'.././assets/knb28.JPG',
     },
     {
@@ -45,27 +45,25 @@ export const detailInfo = {
     headerTitle: 'Services & Packages',
     headerText: 'We provide different types of services from weddings, naming ceremonies to birthday parties.',
     title: 'Wedding & Big Parties',
-    description: 'Silver Package - $1,500 | Gold Package - $2,000 | Premium Package - $2,500',
+    description: 'Silver Package | Gold Package | Premium Package',
     title1: 'Small Party Events',
-    description1: 'Silver Package - $650 | Gold Package - $1,000 | Premium Package - $1,500',
+    description1: 'Silver Package | Gold Package | Premium Package',
     img:'.././assets/knb6.jpg',
-    img1:'.././assets/knb6.jpg',
-
 };
 
-export const service = [
-    {
-        id: 1,
-        serviceTitle: 'Services We Provide',
-        serviceText: 'Weddings, naming ceremonies to birthday parties.',
-        title: 'Wedding & Big Parties',
-        description: 'Silver Package | Gold Package | Premium Package ',
-        title1: 'Small Party Events',
-        description1: 'Silver Package | Gold Package | Premium Package',
-        description2: 'Please contact us for more information about our packages',
-        img:'.././assets/knb6.jpg',
-    }
-];
+// export const service = [
+//     {
+//         id: 1,
+//         serviceTitle: 'Services We Provide',
+//         serviceText: 'Weddings, naming ceremonies to birthday parties.',
+//         title: 'Wedding & Big Parties',
+//         description: 'Silver Package | Gold Package | Premium Package ',
+//         title1: 'Small Party Events',
+//         description1: 'Silver Package | Gold Package | Premium Package',
+//         description2: 'Please contact us for more information about our packages',
+//         img:'.././assets/knb6.jpg',
+//     }
+// ];
 
 export const about = [
     {
