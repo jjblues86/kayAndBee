@@ -9,7 +9,7 @@ class InfoProvider extends React.Component {
         info: serviceInfo,
         reviews: reviews,
         detailInfo: detailInfo,
-        service: service,
+        // service: service,
         about: about,
         portfolio: portfolio
     };
@@ -33,16 +33,13 @@ class InfoProvider extends React.Component {
            <InfoContext.Provider value={{
                info: this.state.info,
                serviceInfo: this.state.serviceInfo,
-               // reviews: this.state.reviews,
                headerTitle: this.state.headerTitle,
                headerText: this.state.headerText,
                detailInfo: this.state.detailInfo,
-               service: this.state.service,
+            //    service: this.state.service,
                portfolio: this.state.portfolio,
                about: this.state.about,
                name: this.state.name,
-               // avatar: this.state.avatar,
-               // comment: this.state.comment,
                handleDetail: this.handleDetail
            }}>
                {this.props.children}
