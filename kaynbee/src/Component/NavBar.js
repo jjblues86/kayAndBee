@@ -26,9 +26,6 @@ const Navbar = () => {
                             <i className="fas fa-home" />
                             <span className="sr-only">(current)</span></Link>
                     </li>
-                    {/* <li className="nav-item">
-                        <Link className="nav-link text-white text-uppercase ml-3" href="#" to="/services">Services</Link>
-                    </li> */}
                     <li className="nav-item">
                         <Link className="nav-link text-white text-uppercase ml-3" href="#" to="/portfolio">Portfolio</Link>
                     </li>

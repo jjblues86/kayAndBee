@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "kaynbee-dev-20190816001301-authRole",
+            "UnauthRoleArn": "arn:aws:iam::206614723646:role/kaynbee-dev-20190816001301-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::206614723646:role/kaynbee-dev-20190816001301-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "kaynbee-dev-20190816001301-deployment",
+            "UnauthRoleName": "kaynbee-dev-20190816001301-unauthRole",
+            "StackName": "kaynbee-dev-20190816001301",
+            "StackId": "arn:aws:cloudformation:us-west-2:206614723646:stack/kaynbee-dev-20190816001301/48879a90-bff5-11e9-bb66-0660270eccea"
+        }
+    }
+}

@@ -53,17 +53,16 @@ const DetailsHeader = styled.header`
     text-transform: uppercase;
     // color: var(--mainWhite);
     text-align: center;
-//  background-color: var(--mainDark);
-   
-//    h4{
-//    color: var(--mainDark);
-//    }
    
    p{
    padding-left: 10%;
    padding-right: 10%;
    margin-bottom: 10%;
    background-color: var(--mainDark);
+    }
+
+    h1{
+        color: var(--mainDark);
     }
    
    i{

@@ -1,5 +1,5 @@
 import React from 'react';
-import {serviceInfo, reviews, detailInfo, service, about, portfolio} from '../data';
+import {serviceInfo, detailInfo, about, portfolio} from '../data';
 
 const InfoContext = React.createContext();
 
@@ -7,9 +7,7 @@ class InfoProvider extends React.Component {
 
     state = {
         info: serviceInfo,
-        reviews: reviews,
         detailInfo: detailInfo,
-        // service: service,
         about: about,
         portfolio: portfolio
     };
@@ -36,7 +34,6 @@ class InfoProvider extends React.Component {
                headerTitle: this.state.headerTitle,
                headerText: this.state.headerText,
                detailInfo: this.state.detailInfo,
-            //    service: this.state.service,
                portfolio: this.state.portfolio,
                about: this.state.about,
                name: this.state.name,

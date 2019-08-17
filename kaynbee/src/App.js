@@ -25,7 +25,6 @@ render() {
           <br/>
           <Switch>
               <Route exact path="/" component={Home}/>
-              {/* <Route path="/services" component={Services}/> */}
               <Route path="/about" component={About}/>
               <Route path="/contacts" component={Contacts}/>
               <Route path="/details" component={Details}/>

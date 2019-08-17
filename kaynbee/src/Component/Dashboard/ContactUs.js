@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Button from "react-bootstrap/Button";
+// import { Link } from 'react-router-dom';
+// import Button from "react-bootstrap/Button";
 
 export default class ContactUs extends React.Component {
     render() {
@@ -9,7 +9,7 @@ export default class ContactUs extends React.Component {
                 <div className="row">
                     <div className="col-md-5 mx-auto">
                         <h4><strong>Contact Us</strong></h4>
-                        <form action="https://formspree.io/jeromejoof@yahoo.com" method="POST" >
+                        <form action="https://formspree.io/kaddijah-sarjo@live.com" method="POST" >
                             <div className="form-group">
                                 <input type="text" name="name" className="form-control" placeholder="Name"/>
                             </div>
