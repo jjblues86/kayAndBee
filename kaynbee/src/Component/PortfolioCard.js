@@ -55,8 +55,6 @@ class PortfolioCard extends Component {
 
   </ol>
   <div className="carousel-inner w-100 mx-auto">
-  {/* <h5 key={id} className="card-title">{headerTitle}</h5> */}
-
     <div className="carousel-item active">
       <img className="d-block   " src={img1} alt="First slide"  width="800" height="600"/>
     </div>
