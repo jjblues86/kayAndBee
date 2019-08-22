@@ -79,6 +79,7 @@ const DetailsHeader = styled.header`
   h1,
   h4 {
   color: var(--mainWhite);
+  width: 100%
   }
   }
     `;

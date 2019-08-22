@@ -28,9 +28,9 @@ class PortfolioCard extends Component {
         return (
             <InfoConsumer>
                 {value => (
-                    <div id="carouselIndicators" className="carousel slide" data-ride="carousel">
+                    <div className="carousel slide" id="carouselIndicators" data-ride="carousel" data-interval="500">
                       <div>
-  <ol className="carousel-indicators">
+  <ul className="carousel-indicators">
     <li data-target="#carouselIndicators" data-slide-to="0" className="active"></li>
     <li data-target="#carouselIndicators" data-slide-to="1"></li>
     <li data-target="#carouselIndicators" data-slide-to="2"></li>
@@ -52,69 +52,68 @@ class PortfolioCard extends Component {
     <li data-target="#carouselIndicators" data-slide-to="18"></li>
     <li data-target="#carouselIndicators" data-slide-to="19"></li>
     <li data-target="#carouselIndicators" data-slide-to="20"></li>
-
-  </ol>
-  <div className="carousel-inner w-100 mx-auto">
+  </ul>
+  <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block   " src={img1} alt="First slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img1} alt="First slide"  />
     </div>
     
     <div className="carousel-item">
-      <img className="d-block   " src={img2} alt="Second slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img2} alt="Second slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img3} alt="Third slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img3} alt="Third slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img4} alt="Fourth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img4} alt="Fourth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img5} alt="Fifth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img5} alt="Fifth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img6} alt="Sixth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img6} alt="Sixth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img7} alt="Seventh slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img7} alt="Seventh slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img8} alt="Eight slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img8} alt="Eight slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img9} alt="Ninth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img9} alt="Ninth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img10} alt="Tenth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img10} alt="Tenth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img11} alt="Eleventh slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img11} alt="Eleventh slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img12} alt="Twelfth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img12} alt="Twelfth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img13} alt="Thirteenth slide" width="800" height="600"/>
+      <img className="img-responsive center-block" src={img13} alt="Thirteenth slide" />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img14} alt="Fourteenth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img14} alt="Fourteenth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img15} alt="Fifteenth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img15} alt="Fifteenth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img16} alt="Sixteenth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img16} alt="Sixteenth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img17} alt="Seventeenth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img17} alt="Seventeenth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img18} alt="Eighteenth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img18} alt="Eighteenth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img19} alt="Nineteenth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img19} alt="Nineteenth slide"  />
     </div>
     <div className="carousel-item">
-      <img className="d-block   " src={img20} alt="Twentieth slide"  width="800" height="600"/>
+      <img className="img-responsive center-block" src={img20} alt="Twentieth slide"  />
     </div>
     </div>
   </div>
