@@ -20,7 +20,7 @@ class Details extends Component {
                     return (
                         <React.Fragment>
                             <DetailsHeader className="container-fluid align-items-center">
-                                <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
+                                <h1 className="font-weight-bold">{headerTitle}</h1>
                             </DetailsHeader>
                            
                                 <div className="tab-content mb-5">
@@ -48,8 +48,6 @@ export default Details;
 
 const DetailsHeader = styled.header`
     background: linear-gradient(rgba(110,110,110), rgba(255,255,255));
-    // background: url("https://image.shutterstock.com/image-vector/vector-floral-bouquet-design-garden-260nw-736426123.jpg");
-    //  height: 100vh;
     text-transform: uppercase;
     // color: var(--mainWhite);
     text-align: center;
