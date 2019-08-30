@@ -7,7 +7,6 @@ import Footer from './Component/Footer';
 import { Switch, Route } from 'react-router-dom';
 // Import Dashboard
 import Home from './Component/Dashboard/Home';
-// import Services from './Component/Dashboard/Services';
 import About from './Component/Dashboard/AboutUs';
 import Contacts from './Component/Dashboard/ContactUs';
 import Details from './Component/Dashboard/Details';
