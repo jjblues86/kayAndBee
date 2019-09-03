@@ -1,8 +1,11 @@
 ## Kay & Bee Events
 
-This is an event planning site
+This is an event planning site for a small business I was tasked to build(www.kayandbeeevents.com)
 
-Used React Context to pass data through the component tree
+I used React Context to pass data through the component tree.
+
+This site is hosted on AWS Route 53.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
