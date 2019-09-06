@@ -28,7 +28,7 @@ class PortfolioCard extends Component {
         return (
             <InfoConsumer>
                 {value => (
-                    <div className="carousel slide" id="carouselIndicators" data-ride="carousel" data-interval="500">
+                    <div className="carousel slide" id="carouselIndicators" data-ride="carousel" data-interval="2000">
                       <div>
   <ul className="carousel-indicators">
     <li data-target="#carouselIndicators" data-slide-to="0" className="active"></li>

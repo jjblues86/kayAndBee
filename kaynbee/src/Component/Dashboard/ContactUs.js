@@ -2,6 +2,7 @@ import React from 'react';
 
 
 export default class ContactUs extends React.Component {
+
     render() {
         return(
             <section className="my-5 py-5">
@@ -10,17 +11,18 @@ export default class ContactUs extends React.Component {
                         <h4><strong>Contact Us</strong></h4>
                         <form action="https://formspree.io/kaddijah-sarjo@live.com" method="POST" >
                             <div className="form-group">
-                                <input type="text" name="name" className="form-control" placeholder="Name"/>
+                                <input type="text" name="_valid[name]" className="form-control" placeholder="Name"/>
                             </div>
                             <div className="form-group">
-                                <input type="email" name="email" className="form-control" placeholder="Email"/>
+                                <input type="email" name="_valid[email]"  className="form-control" placeholder="Email"/>
                             </div>
                             <div className="form-group">
-                                <input type="tel" name="tel" className="form-control" placeholder="Phone"/>
+                                <input type="tel" name="_valid[tel]"  className="form-control" placeholder="Phone"/>
                             </div>
                             <textarea
+                                type="text"
                                 className="form-control"
-                                name="message"
+                                name="_valid[message]"
                                 cols="30" rows="3" placeholder="Message">
                          </textarea>
 

@@ -22,18 +22,18 @@ const Navbar = () => {
             <div className="collapse navbar-collapse"  id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                        <Link className="nav-link text-white text-uppercase ml-3" href="#" to="/">Home&nbsp;
+                        <Link className="nav-link text-black text-uppercase ml-3" href="#" to="/">Home&nbsp;
                             <i className="fas fa-home" />
                             <span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link text-white text-uppercase ml-3" href="#" to="/portfolio">Portfolio</Link>
+                        <Link className="nav-link text-black text-uppercase ml-3" href="#" to="/portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link text-white text-uppercase ml-3" href="#" to="/about">About Us</Link>
+                        <Link className="nav-link text-black text-uppercase ml-3" href="#" to="/about">About Us</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link text-white text-uppercase ml-3" href="#" to="contacts">Contact Us</Link>
+                        <Link className="nav-link text-black text-uppercase ml-3" href="#" to="contacts">Contact Us</Link>
                     </li>
                 </ul>
             </div>

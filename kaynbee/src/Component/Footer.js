@@ -32,7 +32,7 @@ const FooterContainer = styled.footer`
 .footer-middle {
 background: var(--mainDark);
 padding-top: 3rem;
-color: var(--mainWhite);
+color: var(--mainBlack);
 }
 
 .footer-bottom {
@@ -47,7 +47,7 @@ i{
   }
   
   i:hover{
-  color: var(--mainBlue);
+  color: var(--lightPink);
   cursor: pointer;
   }
 `;
