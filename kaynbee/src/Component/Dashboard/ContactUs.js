@@ -17,7 +17,7 @@ export default class ContactUs extends React.Component {
                                 <input type="email" name="_valid[email]" required className="form-control" placeholder="Email"/>
                             </div>
                             <div className="form-group">
-                                <input type="tel" name="_valid[tel]"  required className="form-control" placeholder="Phone"/>
+                                <input type="tel" name="_valid[tel]" required className="form-control" placeholder="Phone"/>
                             </div>
                             <textarea
                                 type="text"
